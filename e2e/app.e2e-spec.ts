@@ -1,10 +1,10 @@
-import { AppPage } from './app.po';
+import { AngularFirebaseGalleryPage } from './app.po';
 
-describe('gallery-app-angular-firebase App', () => {
-  let page: AppPage;
+describe('angular-firebase-gallery App', () => {
+  let page: AngularFirebaseGalleryPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new AngularFirebaseGalleryPage();
   });
 
   it('should display welcome message', () => {
